@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(33, 33, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.425);
+}
+
+p{
+    text-align: center;
+}
+
+.app-title{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 208, 0);
+    font-size: x-large;
+    border-radius: 20px 20px 0 0;
+}
+
+.temperature-value{
+    font-size: xxx-large;
+    cursor: pointer;
+}
+
+.temperature-value span{
+    font-size: x-large;
+}
+
+p{
+   margin: 10px;
+}
+
+.weather-icon {
+    display: flex;
+    justify-content: center;}
+
+.temperature-description {
+    font-weight: bold;
+}
+
+.location{
+    font-size: small;
+}
